@@ -1,0 +1,17 @@
+{
+  "instituteId": "3333",
+  "instituteCode": "3333",
+  "name": "MSCE Pune",
+  "location": "Pune",
+  "address": "Pune",
+  "city": "Pune",
+  "district": "Pune",
+  "taluka": "Haveli",
+  "state": "Maharashtra",
+  "country": "India",
+  "mobileNo": "8329012808",
+  "isActive": true,
+  "userCount": 0,
+  "studentCount": 0,
+  "lastUserAdded": null
+}

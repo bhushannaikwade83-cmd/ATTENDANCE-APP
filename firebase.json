@@ -1,0 +1,35 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": [
+    {
+      "bucket": "smartattendanceapp-bc2fe.firebasestorage.app",
+      "rules": "storage.rules"
+    }
+  ],
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "smartattendanceapp-bc2fe",
+          "appId": "1:976619927198:android:bab862c7dc3156f60fed8f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "smartattendanceapp-bc2fe",
+          "configurations": {
+            "android": "1:976619927198:android:bab862c7dc3156f60fed8f",
+            "ios": "1:976619927198:ios:8d5ea611741582950fed8f",
+            "macos": "1:976619927198:ios:8d5ea611741582950fed8f",
+            "web": "1:976619927198:web:e68057911688b2e90fed8f",
+            "windows": "1:976619927198:web:78220a84c0cf28d70fed8f"
+          }
+        }
+      }
+    }
+  }
+}

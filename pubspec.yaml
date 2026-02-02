@@ -1,0 +1,47 @@
+name: smart_attendance_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Fonts
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  
+  # Location & Camera
+  geolocator: ^14.0.2
+  camera: ^0.11.3
+  google_mlkit_face_detection: ^0.13.1
+  
+  # Firebase Core (Required)
+  firebase_core: ^4.2.1
+  
+  # Firebase Services
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  firebase_storage: ^13.0.4
+  firebase_messaging: ^16.0.4
+  
+  # State Management & Utilities
+  provider: ^6.1.1
+  intl: ^0.20.2
+  image_picker: ^1.0.4
+  flutter_map: ^6.0.0
+  latlong2: ^0.9.0
+  shared_preferences: ^2.3.3
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
