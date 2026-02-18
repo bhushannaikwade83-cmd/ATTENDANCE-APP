@@ -1,0 +1,61 @@
+name: smart_attendance_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Fonts
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  
+  # Location & Camera
+  geolocator: ^14.0.2
+  camera: ^0.11.3
+  google_mlkit_face_detection: ^0.13.1
+  
+  # Backend
+  # postgres: ^3.0.0  # Uncomment for Railway PostgreSQL
+  # connection_pool: ^1.0.0  # Uncomment for connection pooling
+  
+  # Google Cloud Storage (Coldline) - Direct access option
+  # google_cloud_storage: ^5.0.0  # Uncomment if using direct GCS access
+  
+  # Auth Options (if using Railway, choose one)
+  # auth0_flutter: ^2.0.0  # For Auth0
+  # clerk_flutter: ^1.0.0  # For Clerk
+  
+  # Firebase
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  # firebase_storage: ^13.0.4
+  # firebase_messaging: ^16.0.4  # Optional: keep for push notifications
+
+  # Networking and hashing
+  http: ^1.2.2
+  crypto: ^3.0.6
+  
+  # State Management & Utilities
+  provider: ^6.1.1
+  intl: ^0.20.2
+  image_picker: ^1.0.4
+  flutter_image_compress: ^2.3.0
+  flutter_map: ^6.0.0
+  latlong2: ^0.9.0
+  shared_preferences: ^2.3.3
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

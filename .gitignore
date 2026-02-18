@@ -1,0 +1,45 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+.pub/
+build/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+android/local.properties
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android Studio & Keys
+*.jks
+*.keystore
+*.key
+
+# Environment variables & Secrets
+.env
+assets/gcs-service-account.json
